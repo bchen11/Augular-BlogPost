@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'augular-learning';
+  storePosts = [];
+
+  onPostAdded(post) {
+    this.storePosts.push(post);
+  }
+  
 }
