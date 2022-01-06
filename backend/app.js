@@ -11,7 +11,7 @@ const exp = require('constants');
 
 const app = express();
 
-mongoose.connect("mongodb+srv://bchen11:1331@cluster0.ra34u.mongodb.net/node-angular?&w=majority")
+mongoose.connect("mongodb+srv://bchen11:" + process.env.MONGO_ATLAS_PW + "@cluster0.ra34u.mongodb.net/node-angular?&w=majority")
 .then(() =>{
     console.log('Connected to DB');
 })
