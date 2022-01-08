@@ -1,4 +1,8 @@
-# AugularLearning
+# ImageBlog
+
+A Image Blog Post Build with Angular and NodeJS
+
+Go to: http://nodeangular-env.eba-tjakgpmd.us-west-2.elasticbeanstalk.com
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.9.
 
